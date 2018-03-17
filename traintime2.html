@@ -19,78 +19,86 @@
 
       <!-- Jumbotron -->
       <div class="jumbotron">
-        <h1 class="text-center">Metro North Train</h1>
+        <h1 class="text-center">Employee Tracker</h1>
       </div>
       <div class="row">
 
         <!-- Sign-Up Panel-->
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Current Train Schedule</h3>
+              <h3 class="panel-title">Current Employees</h3>
             </div>
             <div class="panel-body">
 
               <!-- Sign-up Form (note the various input "types")-->
-              <table>
+              <table class="table">
                 <thead>
                   <tr>
-                    <th>Train Name</th>
-                    <th>Destination</th>
-                    <th>Frequency (min)</th>
-                    <th>Next Arrival</th>
-                    <th>Minutes Away</th>
+                    <th>Employee Name</th>
+                    <th>Role</th>
+                    <th>Start Date</th>
+                    <th>Months Worked</th>
+                    <th>Monthly</th>
+                    <th>Total Rate ($)</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Bitcoin</td>
-                    <td>Mars</td>
-                    <td>Cell C1</td>
-                    <td>7:53 PM</td>
-                    <td>10:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                   <tr>
-                    <td>Litecoin</td>
-                    <td>Venus</td>
-                    <td>Cell C2</td>
-                    <td>5:03 PM</td>
-                    <td>7:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                   <tr>
-                    <td>Enthereum</td>
-                    <td>Oriontonio</td>
-                    <td>Cell C3</td>
-                    <td>12:41 PM</td>
-                    <td>8:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                   <tr>
-                    <td>Dash</td>
-                    <td>Freallo</td>
-                    <td>Cell C4</td>
-                    <td>9:31 AM</td>
-                    <td>45:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                   <tr>
-                    <td>Ripple</td>
-                    <td>Stollio</td>
-                    <td>Cell C4</td>
-                    <td>2:34 PM</td>
-                    <td>15:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                   <tr>
-                    <td>Monero</td>
-                    <td>Frontsho</td>
-                    <td>Cell C4</td>
-                    <td>11:31 AM</td>
-                    <td>45:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                   <tr>
-                    <td>Stellar</td>
-                    <td>Signalio</td>
-                    <td>Cell C4</td>
-                    <td>3:25 PM</td>
-                    <td>25:00</td>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                    <td>col 3</td>
+                    <td>col4 </td>
+                    <td>col 5</td>
                   </tr>
                 </tbody>
               </table>
@@ -100,29 +108,29 @@
         </div>
 
         <!-- Sign-Up Panel-->
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Add Train</h3>
+              <h3 class="panel-title">Add Employees</h3>
             </div>
             <div class="panel-body">
 
               <!-- Sign-up Form (note the various input "types")-->
               <form role="form">
                 <div class="form-group">
-                  <label for="trainName-input">Train Name</label>
+                  <label for="trainName-input">Employee Data Management</label>
                   <input class="form-control" id="trainName-input" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="destination-input">Destination</label>
+                  <label for="destination-input">Role</label>
                   <input class="form-control" id="destination-input" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="firstTrainTime-input">First Train Time (HH:mm - military time)</label>
+                  <label for="firstTrainTime-input">Start Date (DD/MM/YY - ex:01/01/89)</label>
                   <input class="form-control" id="firstTrainTime-input" type="number">
                 </div>
                 <div class="form-group">
-                  <label for="frequency">Frequency (min)</label>
+                  <label for="frequency">Monthly Rate</label>
                   <input class="form-control" id="frequency-input" type="text">
                 </div>
                 <button class="btn btn-default" id="add-user" type="submit">Submit</button>
@@ -131,20 +139,20 @@
           </div>
         </div>
 
-        <!-- Most Recent Member Panel-->
+        <!-- Most Recent Member Panel
         <div class="col-lg-6">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Your Receipt</h3>
             </div>
             <div class="panel-body" id="recent-member">
-              <h4 id="trainName-display">Train Name:</h4>
-              <h4 id="destination-display">Destination:</h4>
-              <h4 id="firstTrainTime-display">Time Time:</h4>
+              <h4 id="trainName-display">Employee</h4>
+              <h4 id="destination-display">Start Date (DD/MM/YY - ex:01/01/89)</h4>
+              <h4 id="firstTrainTime-display">Monthly Rate</h4>
               <p id="frequency-display"></p>
             </div>
           </div>
-        </div>
+        </div>-->
 
       </div>
 
@@ -191,7 +199,8 @@
         frequency = $("#frequency-input").val().trim();
 
         // Code in the logic for storing and retrieving the most recent user.
-        database.ref().set({
+        database.ref().push({
+          //  database.ref().set({
           trainName: trainName,
           destination: destination,
           firstTrainTime: firstTrainTime,
@@ -200,7 +209,10 @@
       });
       // Don't forget to provide initial data to your Firebase database.
       // Firebase watcher + initial loader HINT: .on("value")
-      database.ref().on("value", function(snapshot) {
+      //  database.ref().on("value", function(snapshot) {
+      database.ref().on("child_added", function(snapshot) {
+        console.log(snapshot.val());
+        console.log(snapshot.val().trainName);
 
 
         $("#trainName-display").text("Train Name: " + snapshot.val().trainName);

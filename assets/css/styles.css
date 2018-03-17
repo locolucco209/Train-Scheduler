@@ -1,0 +1,8 @@
+.jumbotron {
+  background-image: url(../images/train.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ff6a00;
+  color: white;
+}
